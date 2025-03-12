@@ -1,0 +1,27 @@
+:root {
+    --clr__bg--intro-email: hsl(218, 28%, 13%);
+    --clr__bg--main: hsl(218, 28%, 13%);
+    --clr__bg--footer: hsl(216, 53%, 9%);
+    --clr__bg--testimonials: hsl(219, 30%, 18%);
+    --clr__accent--cyan: hsl(176, 68%, 64%);
+    --clr__accent--blue: hsl(198, 60%, 50%);
+    --clr__accent--light-red: hsl(0, 100%, 63%);
+    --clr__neut--white: hsl(0, 0%, 100%);
+    font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img {
+    vertical-align: middle;
+    max-width: 100%;
+}
