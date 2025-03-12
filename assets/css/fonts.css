@@ -1,0 +1,37 @@
+/* Raleway */
+@font-face {
+    font-family: Raleway;
+    font-weight: 400;
+    src: url("../fonts/raleway/static/Raleway-Regular.ttf") format("embedded-opentype"), /* Internet Explorer */
+        url("../fonts/raleway/static/Raleway-Regular.ttf") format("woff2"), /* Super Modern Browser */
+        url("../fonts/raleway/static/Raleway-Regular.ttf") format("woff"), /* Pretty Modern Browser */
+        url("../fonts/raleway/static/Raleway-Regular.ttf") format("truetype"); /* Safari, Android, IOS */
+}
+
+@font-face {
+    font-family: Raleway;
+    font-weight: 700;
+    src: url("../fonts/raleway/static/Raleway-Bold.ttf") format("embedded-opentype"), /* Internet Explorer */
+        url("../fonts/raleway/static/Raleway-Bold.ttf") format("woff2"), /* Super Modern Browser */
+        url("../fonts/raleway/static/Raleway-Bold.ttf") format("woff"), /* Pretty Modern Browser */
+        url("../fonts/raleway/static/Raleway-Bold.ttf") format("truetype"); /* Safari, Android, IOS */
+}
+
+/* Open Sans */
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 400;
+    src: url("../fonts/open_sans/static/OpenSans-Regular.ttf") format("embedded-opentype"), /* Internet Explorer */
+        url("../fonts/open_sans/static/OpenSans-Regular.ttf") format("woff2"), /* Super Modern Browser */
+        url("../fonts/open_sans/static/OpenSans-Regular.ttf") format("woff"), /* Pretty Modern Browser */
+        url("../fonts/open_sans/static/OpenSans-Regular.ttf") format("truetype"); /* Safari, Android, IOS */
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 700;
+    src: url("../fonts/open_sans/static/OpenSans-Bold.ttf") format("embedded-opentype"), /* Internet Explorer */
+        url("../fonts/open_sans/static/OpenSans-Bold.ttf") format("woff2"), /* Super Modern Browser */
+        url("../fonts/open_sans/static/OpenSans-Bold.ttf") format("woff"), /* Pretty Modern Browser */
+        url("../fonts/open_sans/static/OpenSans-Bold.ttf") format("truetype"); /* Safari, Android, IOS */
+}
