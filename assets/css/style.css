@@ -94,13 +94,14 @@ main
 */
 
 .main {
+    padding-inline: 20px;
     background-color: var(--clr__bg--main);
 }
 
 .hero {
     --header-height--mobile: 73.63px;
     position: relative;
-    padding: calc(281px + var(--header-height--mobile)) 20px 100px;
+    padding-block: calc(281px + var(--header-height--mobile)) 100px;
     background-color: var(--clr__bg--intro-email);
     isolation: isolate;
     overflow: hidden;
@@ -188,7 +189,7 @@ main
 .features {
     display: flex;
     flex-direction: column;
-    padding: 30px 20px;
+    padding-block: 30px;
 }
 
 .feature {
