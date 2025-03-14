@@ -223,3 +223,52 @@ main
 .feature .text {
     margin-inline: 5px; 
 }
+
+.highlight {
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 48px;
+    padding-block: 60px;
+}
+
+.highlight-img {
+    width: 100%;
+}
+
+.highlight-img .img {
+    margin-inline: auto;
+    display: block;
+    width: 90%;
+}
+
+.highlight .copy {
+    row-gap: 15px;
+    padding-inline: 8px;
+    text-align: left;
+}
+
+.highlight .heading {
+    font-size: 1.8rem;
+    text-indent: 4px;
+}
+
+.highlight .text {
+    margin-inline: 0;
+}
+
+.cta--link {
+    align-items: center;
+    display: flex;
+    column-gap: 6px;
+    border-bottom: 1px solid var(--clr__accent--cyan);
+    padding-block-end: 5px;
+    color: var(--clr__accent--cyan);
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    max-width: fit-content;
+}
+
+.cta--link::after {
+    content: url("../images/icon-arrow.svg");
+    max-height: 16px;
+}
