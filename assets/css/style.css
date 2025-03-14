@@ -184,3 +184,41 @@ main
     text-decoration: none;
     width: fit-content;
 }
+
+.features {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+}
+
+.feature {
+    margin-block-end: 90px;
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 34px;
+}
+
+.feature .copy {
+    row-gap: 12px;
+}
+
+.feature-icon {
+    height: auto;
+    width: 64px;
+}
+
+.feature-icon--security {
+    width: 54px;
+}
+
+.feature-heading {
+    font-family: Raleway, serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.feature .text {
+    margin-inline: 5px; 
+}
