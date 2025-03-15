@@ -286,7 +286,7 @@ main
     display: flex;
     flex-direction: column;
     row-gap: 24px;
-    padding-inline: 27px;
+    padding-inline: 47px;
     z-index: 0;
     max-width: 375px;
 }
@@ -295,7 +295,7 @@ main
     content: "";
     position: absolute;
     top: -16px;
-    left: 33px;
+    left: 53px;
     background: url("../images/bg-quotes.png")
                 no-repeat
                 0 -2% / 22px;
