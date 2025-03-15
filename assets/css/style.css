@@ -94,8 +94,14 @@ main
 */
 
 .main {
-    padding-inline: 20px;
     background-color: var(--clr__bg--main);
+}
+
+.features,
+.highlight,
+.testimonials,
+.newsletter {
+    padding-inline: 20px;
 }
 
 .hero {
@@ -147,6 +153,7 @@ main
     position: relative;
     align-items: center;
     row-gap: 15px;
+    padding-inline: 20px;
     z-index: 2;
 }
 
