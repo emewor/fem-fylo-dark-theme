@@ -99,8 +99,7 @@ main
 
 .features,
 .highlight,
-.testimonials,
-.newsletter {
+.testimonials {
     padding-inline: 20px;
 }
 
@@ -282,7 +281,7 @@ main
 
 .testimonials {
     position: relative;
-    margin: 110px auto;
+    margin: 110px auto 0;
     display: flex;
     flex-direction: column;
     row-gap: 24px;
@@ -355,4 +354,64 @@ main
     font-size: 0.8rem;
     font-weight: 400;
     opacity: 0.6;
+}
+
+.newsletter {
+    position: relative;
+    top: 173px;
+    margin: -19px 20px 0;
+    border-radius: 8px;
+    box-shadow: 10px 5px 15px 5px hsl(0deg 0% 0% / 15%);
+    padding: 40px 20px;
+    background-color: var(--clr__bg--intro-email);
+    max-width: 425px;
+}
+
+.newsletter .copy {
+    margin-block-end: 32px;
+    row-gap: 15px;
+}
+
+.newsletter .heading {
+    font-size: 1.8rem;
+}
+
+.newsletter .text {
+    margin-inline: 6px;
+}
+
+.newsletter .email-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    padding-inline: 6px;
+}
+
+.newsletter .email {
+    border: none;
+    border-radius: 30px;
+    padding: 20px 30px 14px;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+.newsletter .email::placeholder {
+    font-size: 1rem;
+    opacity: 0.5;
+}
+
+.newsletter .email::-moz-placeholder {
+    font-size: 1rem;
+    opacity: 0.5;
+}
+
+.newsletter .email::-webkit-input-placeholder {
+    font-size: 1rem;
+    opacity: 0.5;
+}
+
+.newsletter .cta {
+    border: none;
+    padding-inline: 0;
+    width: 100%;
 }
