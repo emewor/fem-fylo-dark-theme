@@ -490,7 +490,24 @@ main
 }
 
 .footer .menu-group {
+    display: flex;
+    flex-direction: column;
     grid-area: menu-group;
+    row-gap: 50px;
+}
+
+.footer-menu {
+    flex-direction: column;
+    row-gap: 18px;
+}
+
+.footer-menu .menu-item {
+    margin-inline: 0;
+}
+
+.footer-menu .menu-link {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
 }
 
 .social {
