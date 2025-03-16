@@ -511,7 +511,12 @@ main
 }
 
 .social {
+    margin-inline: auto;
+    align-items: center;
     display: flex;
+    column-gap: 15px;
+    list-style-type: none;
+    max-width: fit-content;    
 }
 
 .footer .social {
