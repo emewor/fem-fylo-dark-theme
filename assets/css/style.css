@@ -424,7 +424,7 @@ main
                           "attribution";
     grid-template-rows: repeat(4, max-content);
     row-gap: 80px;
-    padding: 245px 28px;
+    padding: 245px 28px 50px;
     color: var(--clr__neut--white);
     background-color: var(--clr__bg--footer);
     font-family: "Open Sans", sans-serif;
