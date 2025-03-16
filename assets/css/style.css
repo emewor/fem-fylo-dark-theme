@@ -94,6 +94,9 @@ main
 */
 
 .main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     background-color: var(--clr__bg--main);
 }
 
