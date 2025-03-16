@@ -525,4 +525,9 @@ main
 
 .attribution {
     grid-area: attribution;
+    text-align: center;
+}
+
+.attribution a {
+    color: var(--clr__neut--white);
 }
