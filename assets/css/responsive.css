@@ -1,4 +1,3 @@
-/* 10% increase  */
 @media screen and (min-width: 425px) {
     .header {
         padding: 26.4px 22.4px;
@@ -10,5 +9,96 @@
 
     .header .menu-link {
         font-size: 12.1px;
+    }
+
+    .hero {
+        width: 100%;
+    }
+
+    .hero::before {
+        background-position-y: 20.647%, 51.7%; 
+    }
+
+    .hero .heading {
+        font-size: 2.68rem;
+    }
+
+    .text {
+        font-size: 1.54rem;
+    }
+
+    .cta {
+        font-size: 1.54rem;
+    }
+
+    .feature-heading {
+        font-size: 1.87rem;
+    }
+
+    .feature-icon {
+        width: 70.4px;
+    }
+
+    .feature-icon--security {
+        width: 59.4px;
+    }
+
+    .highlight .heading {
+        font-size: 1.98rem;
+    }
+    
+    .highlight-img .img {
+        width: 99%;
+    }
+
+    .cta--link {
+        font-size: 1.21rem;
+    }
+
+    .testimonials {
+        max-width: 400px;
+    }
+
+    .testimonials::before {
+        top: -17.6px;
+        height: 24.2px;
+        width: 24.2px;
+    }
+    
+    .testimonial-text {
+        font-size: 1.001rem;
+    }
+
+    .testimonial-avatar {
+        height: 26.8px;
+        width: 26.8px;
+    }
+
+    .testimonial-name {
+        font-size: 1.1rem;
+    }
+
+    .testimonial-title {
+        font-size: 0.88rem;
+    }
+
+    .newsletter .heading {
+        font-size: 1.98rem;
+    }
+
+    .newsletter .email {
+        font-size: 1.32rem;
+    }
+
+    .newsletter .email::placeholder {
+        font-size: 1.1rem;
+    }
+
+    .newsletter .email::-moz-placeholder {
+        font-size: 1.1rem;
+    }
+
+    .newsletter .email::-webkit-input-placeholder {
+        font-size: 1.1rem;
     }
 }
