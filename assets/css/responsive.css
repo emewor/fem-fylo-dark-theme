@@ -101,4 +101,12 @@
     .newsletter .email::-webkit-input-placeholder {
         font-size: 1.1rem;
     }
+
+    .footer {
+        padding: 269.5px 30.8px 55px;
+    }
+
+    .footer-text {
+        max-width: 425px;
+    }
 }
