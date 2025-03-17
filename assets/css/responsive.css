@@ -110,3 +110,27 @@
         max-width: 425px;
     }
 }
+
+@media screen and (min-width: 576px) {
+    /* +25% */
+    
+    .header {
+        padding: 33px 28px;
+    }
+
+    .header .brand-logo {
+        width: 110px;
+    }
+
+    .header-menu {
+        column-gap: 18.75px;
+    }
+    
+    .menu-item {
+        margin-inline: 6.25px;
+    }
+    
+    .header .menu-link {
+        font-size: 1.5125rem;
+    }
+}
