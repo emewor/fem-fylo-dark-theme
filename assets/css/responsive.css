@@ -259,4 +259,20 @@
     .cta {
         font-size: 1.925rem;
     }
+
+    .footer {
+        padding: 369.5px 50.8px 100px;
+    }
+
+    .company-info {
+        row-gap: 20px;
+    }
+
+    .footer .brand-link {
+        margin-inline-start: 0;
+    }
+
+    .footer .menu-link {
+        font-size: 1.6rem;
+    }
 }
