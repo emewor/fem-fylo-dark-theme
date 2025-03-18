@@ -133,4 +133,130 @@
     .header .menu-link {
         font-size: 1.5125rem;
     }
+
+    .hero {
+        --header-height--mobile: 100.5px;
+        padding-block: calc(355px + var(--header-height--mobile)) 200px;
+    }
+    
+    .hero::before {
+        background-position-y: 23.4625%, 64.625%;
+    }
+    
+    .hero::after {
+        max-height: 275px;
+    }
+
+    .hero .copy {
+        row-gap: 18.75px;
+        padding-inline: 25px;
+    }
+
+    .hero .heading {
+        font-size: 3.35rem;
+    }
+
+    .hero .text {
+        margin-inline: 27px;
+    }
+
+    .text {
+        font-size: 1.925rem;
+    }
+
+    .hero .cta {
+        border-radius: 30px;
+        font-size: 2rem;
+    }
+
+    .features {
+        padding-block: 60px;
+    }
+    
+    .features,
+    .highlight,
+    .testimonials,
+    .newsletter {
+        max-width: 550px;
+    }
+
+    .feature-heading {
+        font-size: 2.3375rem;
+    }
+
+    .feature .text {
+        margin-inline: 0;
+    }
+    
+    .feature-icon {
+        height: 76px;
+        width: 76px;
+    }
+
+    .highlight {
+        row-gap: 60px;
+    }
+
+    .highlight .heading {
+        font-size: 2.475rem;
+        text-indent: 5.4px;
+    }
+
+    .cta--link {
+        font-size: 1.5125rem;
+    }
+
+    .highlight-img .img {
+        max-width: 505px;
+        width: 100%;
+    }
+
+    .testimonials {
+        row-gap: 30px;
+    }
+    
+    .testimonials::before {
+        top: -22px;
+        left: 66.25px;
+        height: 30.25px;
+        width: 30.25px;
+    }
+    
+    .testimonial {
+        row-gap: 21.25px;
+        padding: 30px 26.25px;
+    }
+    
+    .testimonial-text {
+        font-size: 1.25125rem;
+    }
+
+    .testimonial-info {
+        column-gap: 10.8px;
+    }
+
+    .testimonial-avatar {
+        height: 33.5px;
+        width: 33.5px;
+    }
+    
+    .testimonial-name {
+        font-size: 1.375rem;
+    }
+
+    .testimonial-title {
+        font-size: 1.1rem;
+    }
+
+    .newsletter .heading {
+        font-size: 2.475rem;
+    }
+
+    .newsletter .email {
+        font-size: 1.65rem;
+    }
+
+    .cta {
+        font-size: 1.925rem;
+    }
 }
