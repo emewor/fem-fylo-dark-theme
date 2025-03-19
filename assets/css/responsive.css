@@ -276,3 +276,18 @@
         font-size: 1.6rem;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .header {
+        padding: 73px 80px;
+    }
+
+    .header .brand-logo {
+        max-width: 176px;
+        width: 100%;
+    }
+
+    .menu-item {
+        margin-inline: 40px 0;
+    }
+}
