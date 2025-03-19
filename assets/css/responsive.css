@@ -290,4 +290,47 @@
     .menu-item {
         margin-inline: 40px 0;
     }
+
+    .hero {
+        padding-block: 770px 300px;
+    }
+
+    .hero::before {
+        background-image: url("../images/illustration-intro.png"),
+                          url("../images/bg-curvy-desktop.svg");
+        background-position-y: 23%, 89%;
+        background-size: 720px 535px, 100%;
+    }
+
+    .hero::after {
+        max-height: 110px;
+    }
+    
+    .hero .copy {
+        margin-inline: auto;
+        row-gap: 34px;
+        padding-inline: 0;
+        max-width: 55%;
+    }
+
+    .hero .heading {
+        font-size: 4rem;
+    }
+    
+    .text {
+        font-size: 2rem;
+    }
+
+    .hero .text {
+        width: 75%;
+    }
+
+    .hero .cta {
+        margin-block-start: 0;
+        font-size: 1.6rem;
+    }
+
+    .cta {
+        padding: 18px 96px;
+    }
 }
