@@ -333,4 +333,39 @@
     .cta {
         padding: 18px 96px;
     }
+
+    .features {
+        position: relative;
+        margin-block-start: -182px;
+        column-gap: 20px;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        max-width: 960px;
+    }
+
+    .feature {
+        margin-block-end: 70px;
+        justify-content: flex-end;
+        row-gap: 26px;
+        max-width: 400px;
+    }
+
+    .feature-heading {
+        font-size: 1.75rem;
+        letter-spacing: 1px;
+    }
+    
+    .feature .copy {
+        row-gap: 10px;
+    }
+    
+    .feature .text {
+        font-size: 1.4rem;
+        word-spacing: 1px;
+    }
+
+    .feature-icon {
+        height: 88px;
+        width: 90px;
+    }
 }
