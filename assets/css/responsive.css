@@ -368,4 +368,49 @@
         height: 88px;
         width: 90px;
     }
+
+    .highlight {
+        margin-block: 2px;
+        flex-flow: row-reverse wrap;
+        justify-content: flex-end;
+        padding: 0 105px;
+        max-width: unset;
+        width: 100%;
+    }
+
+    .highlight .copy {
+        justify-content: center;
+        row-gap: 0;
+        padding-inline: 56px 0;
+        max-width: 50.5%;
+    }
+
+    .highlight-img {
+        max-width: 59.5%;
+        width: fit-content;
+    }
+
+    .highlight-img .img {
+        margin-inline: 0;
+        max-width: unset;
+        width: 608px;
+    }
+
+    .highlight .heading {
+        margin-block-start: 48px;
+        font-size: 4rem;
+        line-height: 1.25;
+        text-indent: unset;
+        max-width: 60%;
+    }
+
+    .highlight .text {
+        margin-block-start: 16px;
+        font-size: 1.6rem;
+        line-height: 1.5;
+    }
+
+    .highlight .cta--link {
+        margin-block-start: 25px;
+    }
 }
