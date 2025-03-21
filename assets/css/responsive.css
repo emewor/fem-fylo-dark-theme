@@ -496,4 +496,50 @@
         font-size: 1.4rem;
         width: 28%;
     }
+
+    .footer {
+        grid-template-areas: "company-info company-info . ."
+                             "company-info company-info menu-group social"
+                             "attribution attribution attribution attribution";
+        grid-template-columns: repeat(3, 1fr) min-content;
+        grid-template-rows: repeat(3, min-content);
+        row-gap: 20px;
+        padding: 215px 120px 80px;
+    }
+
+    .company-info {
+        column-gap: 60px;
+        grid-template-areas: "brand-link brand-link"
+                             "location contact";
+        grid-template-columns: [brand-link] minmax(min-content, 400px) auto;
+        grid-template-rows: repeat(2, min-content);
+    }
+
+    .footer .brand-link {
+        margin-block-end: 10px;
+    }
+
+    .company-info .contact {
+        row-gap: 17px;
+    }
+
+    .contact .contact-phone,
+    .contact .contact-email {
+        column-gap: 26px;
+    }
+
+    .footer .menu-group {
+        margin-block-start: 65px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .footer .social {
+        margin-block-start: 65px;
+        align-items: flex-start;
+    }
+
+    .attribution {
+        margin-block-start: 100px;
+    }
 }
