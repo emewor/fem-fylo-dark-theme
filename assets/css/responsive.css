@@ -463,4 +463,37 @@
     .testimonial-title {
         font-size: 0.8rem;
     }
+
+    .newsletter {
+        top: 130px;
+        margin: -16px 0 0;
+        padding: 40px 70px;
+        max-height: 276px;
+        max-width: 860px;
+    }
+
+    .newsletter .heading {
+        font-size: 3.25rem;
+    }
+
+    .newsletter .text {
+        margin-inline: 50px;
+        font-size: 1.4rem;
+    }
+
+    .newsletter .email-form {
+        column-gap: 4%;
+        flex-direction: row;
+    }
+
+    .newsletter .email {
+        padding: 15px 20px;
+        width: 68%;
+    }
+
+    .newsletter .cta {
+        padding: 10px 20px;
+        font-size: 1.4rem;
+        width: 28%;
+    }
 }
