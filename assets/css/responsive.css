@@ -415,7 +415,7 @@
     }
 
     .testimonials {
-        margin: 175px 140px;
+        margin: 175px 140px 95px;
         column-gap: 50px;
         flex-direction: row;
         padding-inline: 0;
